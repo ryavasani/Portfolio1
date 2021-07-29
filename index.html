@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body data-spy="scroll" data-toggle="#main-nav">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info fixed-top" id="main-nav">
+        <div class="container">
+            <a href="#header" class="navbar-brand">JS</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="navbar-nav mx-auto">
+    
+                    <li class="nav-item">
+                        <a href="#header" class="nav-link">Home</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+    
+                <ul class="navbar-nav ml-auto d-none-resp">
+    
+                    <li class="nav-item">
+                        <a href="www.youtube.com" class="nav-link"><i class="fab fa-youtube"></i></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="www.linkedin.com" class="nav-link"><i class="fab fa-linkedin"></i></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="www.github.com" class="nav-link"><i class="fab fa-github"></i></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a href="www.instagram.com" class="nav-link"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+    
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- MAIN HEADER -->
+    <section id="header" class="d-md-block">
+
+        <div class="row align-items-center bg-personal-img">
+            <div class="col-md-6">
+
+                <h1 class="text-center text-white">John Smith</h1>
+                <h3 class="text-center text-white">
+                    <span class="text-slider-items">
+                        A freelancer, A student, A visionary
+                    </span>
+                    <strong class="text-slider"></strong>
+          
+                </h3>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="py-5 mt-resp-2">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-resp-1">
+                    <img src="Img/about-img.jpg" alt="" class="img-fluid rounded-circle my-auto">
+                </div>
+
+                <div class="col-lg-7">
+
+                    <h3 class="mb-2 text-center blue-underline">About</h3>
+					<p class="text-center no-padding">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum iusto, voluptatibus optio pariatur cum magnam quibusdam amet quae quo beatae?</p>
+
+					<!-- Flex Grid System -->
+					<div class="row text-center">
+
+						<div class="p-3 col-sm-6">
+                            <i class="fas fa-phone fa-2x mr-2"></i> Phone: +1 123-456-789
+                        </div>
+
+						<div class="p-3 col-sm-6">
+                            <i class="fas fa-envelope fa-2x mr-2"></i> Email: jsmith123@gmail.com
+                        </div>
+					</div>
+
+					<div class="row text-center">
+
+                        <div class="p-3 col-sm-6">
+                            <i class="fas fa-birthday-cake fa-2x mr-2"></i> Age: 26 Years Old
+                        </div>
+
+						<div class="p-3 col-sm-6">
+                            <i class="fas fa-school fa-2x mr-2"></i> Education: Tech University
+                        </div>
+					</div>
+
+					<div class="row text-center">
+
+						<div class="p-3 col-sm-6">
+                            <i class="fas fa-flag fa-2x mr-2"></i> Nationality: American
+                        </div>
+
+						<div class="p-3 col-sm-6">
+                            <i class="fas fa-building fa-2x mr-2"></i> Location: NYC
+                        </div>
+					</div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SERVICES/SKILLS -->
+
+    <section id="skills" class="py-4 bg-light-cyan">
+
+        <div class="container">
+
+            <h1 class="text-center section-header py-2">My Skills</h1>
+            <p class="lead text-center mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, quas.</p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center mb-resp-2">
+                        <div class="card-header bg-dark text-white">
+                            <h3>Web Development</h3>
+                        </div>
+
+                        <div class="card-body">
+                            <p class="card-text">Professional Web Design with HTML, CSS</p>
+                        </div>
+
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fas fa-check"></i> Modern Look</li>
+                            <li class="list-group-item"><i class="fas fa-users"></i> User-friendly</li>
+                            <li class="list-group-item"><i class="fas fa-copyright"></i> Original Code</li>
+                            <li class="list-group-item"><i class="fas fa-lightbulb"></i> Creative Designs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center mb-resp-2">
+                        <div class="card-header bg-dark text-white">
+                            <h3>Python</h3>
+                        </div>
+
+                        <div class="card-body">
+                            <p class="card-text">Simple Python scripts with a Graphical UI</p>
+                        </div>
+
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fas fa-database"></i> SQL Databases</li>
+                            <li class="list-group-item"><i class="fas fa-laptop"></i> Algorithms</li>
+                            <li class="list-group-item"><i class="fas fa-gamepad"></i> Simple Games</li>
+                            <li class="list-group-item"><i class="fas fa-mouse-pointer"></i> Tkinter Front End</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-header bg-dark text-white">
+                            <h3>Boostrap, SASS, JQUERY</h3>
+                        </div>
+
+                        <div class="card-body">
+                            <p class="card-text">Advanced, Modern Web Design</p>
+                        </div>
+
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fas fa-code"></i> Efficient Code</li>
+                            <li class="list-group-item"><i class="fas fa-mobile"></i> Reponsive/Moble Friendly</li>
+                            <li class="list-group-item"><i class="fas fa-file-code"></i> Advanced CSS Styling</li>
+                            <li class="list-group-item"><i class="fas fa-table"></i> Displaying Data</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="py-3">
+
+        <div class="container">
+
+            <h1 class="text-center">Projects</h1>
+            <p class="text-center">Check Out My Projects and Programming Experience</p>
+    
+            <div class="row mb-4">
+    
+                <div class="col-md-4 mb-resp-2">
+                    <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+                        <img class="img-fluid" src="https://source.unsplash.com/random/560x560" alt="">
+                    </a>
+
+                    <p class="lead text-center mt-resp-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ab!</p>
+                </div>
+    
+                <div class="col-md-4 mb-resp-2">
+                    <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-height="561" data-width="561">
+                        <img class="img-fluid" src="https://source.unsplash.com/random/561x561" alt="">
+                    </a>
+                    <p class="lead text-center mt-resp-2">Incidunt fugit ullam impedit itaque eius laudantium non aut aspernatur</p>
+                </div>
+    
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery" data-height="562" data-width="562">
+                        <img class="img-fluid" src="https://source.unsplash.com/random/562x562" alt="">
+                    </a>
+                    <p class="lead text-center mt-resp-2">Sequi sint nisi voluptatem quidem neque, aperiam cum.</p>
+                </div>
+    
+            </div>
+
+            <div class="row mb-4">
+    
+                <div class="col-md-4 mb-resp-2">
+                    <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox" data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img class="img-fluid" src="https://source.unsplash.com/random/563x563" alt="">
+                    </a>
+
+                    <p class="lead text-center mt-resp-2">Beatae adipisci placeat explicabo nostrum in dicta consectetur</p>
+                </div>
+    
+                <div class="col-md-4 mb-resp-2">
+                    <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox" data-gallery="img-gallery" data-height="564" data-width="564">
+                        <img class="img-fluid" src="https://source.unsplash.com/random/564x564" alt="">
+                    </a>
+                    <p class="lead text-center mt-resp-2">Veritatis dolores molestias consequuntur eum quia a! Nobis impedit aut!</p>
+                </div>
+    
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox" data-gallery="img-gallery" data-height="565" data-width="565">
+                        <img class="img-fluid" src="https://source.unsplash.com/random/565x565" alt="">
+                    </a>
+                    <p class="lead text-center mt-resp-2"> Nobis impedit illum sequi aut! Alias voluptatem recusandae eveniet!</p>
+                </div>
+    
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="bg-light py-5">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-7 mb-resp-1">
+                    <h3>Get In Touch</h3>
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, dolor.</p>
+                    <form action="#">
+
+                        <div class="input-group input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+
+                            <input class="form-control" placeholder="Enter Name" type="text">
+                        </div>
+
+                        <div class="input-group input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+
+                            <input class="form-control" placeholder="Enter Email" type="text">
+                        </div>
+
+                        <div class="input-group input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </span>
+                            </div>
+
+                            <textarea class="form-control" placeholder="Enter Message" type="text" rows="4"></textarea>
+                        </div>
+
+                        <input type="submit" value="Submit" class="btn btn-primary btn-block">
+
+                    </form>
+                </div>
+
+                <div class="col-lg-5 align-self-center">
+                    <div class="d-flex justify-content-center">
+                        <img src="Img/contact-img.jpg" alt="" class="img-fluid rounded-circle">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="p-4 text-center bg-light-cyan"> 
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <p>Copyright &copy; <span id="year"></span> <a href="index.html">JS Portfolio</a></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Base JQuery -->
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+    <!-- Typing Animation Links -->
+    <script src="typed.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        //Text Slider
+        if ($(".text-slider").length == 1) {
+                
+            var typed_strings = 
+                $(".text-slider-items").text();
+
+            var typed = new Typed(".text-slider", {
+                strings: typed_strings.split(", "),
+                typeSpeed: 50,
+                loop: true,
+                backDelay: 900,
+                backSpeed: 30,
+            });
+        }
+
+        //Get the current year for the copyright
+        $('#year').text(new Date().getFullYear())
+        
+
+    </script>
+
+
+
+</body>
+</html>
